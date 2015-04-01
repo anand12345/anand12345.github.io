@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10520.078"
+   height="7440.9448"
+   id="svg4249"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="email us.svg">
+  <defs
+     id="defs4251" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.044194174"
+     inkscape:cx="3109.9163"
+     inkscape:cy="3505.4763"
+     inkscape:current-layer="layer1"
+     id="namedview4253"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4300"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4255">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,6696.8502)">
+    <g
+       id="g3797"
+       transform="matrix(10,0,0,10,0,-6696.8507)">
+      <rect
+         ry="0"
+         y="0.00046966824"
+         x="1.9447765e-005"
+         height="744.09381"
+         width="1052.3619"
+         id="rect3896"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none" />
+      <path
+         transform="matrix(3.1535555,0,0,1.3150913,-265.43367,-547.78469)"
+         inkscape:transform-center-y="21.666376"
+         d="M 251.02291,705.53606 84.169673,416.53779 l 333.706457,-10e-6 z"
+         inkscape:randomized="3.0964814e-016"
+         inkscape:rounded="6.4184769e-016"
+         inkscape:flatsided="true"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="96.332756"
+         sodipodi:r1="192.66551"
+         sodipodi:cy="512.87054"
+         sodipodi:cx="251.0229"
+         sodipodi:sides="3"
+         id="path4012"
+         style="fill:#808080;fill-opacity:1;stroke:none"
+         sodipodi:type="star" />
+      <text
+         xml:space="preserve"
+         style="font-size:78.66773224px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
+         x="53.43951"
+         y="461.35077"
+         id="text3922"
+         sodipodi:linespacing="125%"
+         transform="scale(0.96100365,1.0405788)"><tspan
+           sodipodi:role="line"
+           id="tspan3924"
+           x="53.43951"
+           y="461.35077">contact@resoneuronance.com</tspan></text>
+      <rect
+         y="187.95316"
+         x="402.5798"
+         height="5.0504131"
+         width="247.20233"
+         id="rect3824-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      <text
+         transform="scale(0.96100365,1.0405788)"
+         sodipodi:linespacing="125%"
+         id="text3918"
+         y="173.85698"
+         x="413.28287"
+         style="font-size:78.66773224px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
+         xml:space="preserve"><tspan
+           y="173.85698"
+           x="413.28287"
+           id="tspan3920"
+           sodipodi:role="line">Email us</tspan></text>
+      <rect
+         ry="0"
+         y="20.083445"
+         x="20.080244"
+         height="703.93085"
+         width="1012.1949"
+         id="rect3896-1"
+         style="fill:none;stroke:#ececec;stroke-width:40.16048813;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>
