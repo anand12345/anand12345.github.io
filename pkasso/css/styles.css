@@ -1,0 +1,304 @@
+body
+{
+    
+    background-color: #141517;  
+}
+
+
+/*Navbar CSS*/
+
+
+.navbar
+{
+        min-height:150px; 
+        background-color:transparent;
+        margin:0px;
+        padding:0px;
+           
+}
+
+.navbar-nav 
+{
+        margin-top: 20px;
+        background-color: transparent;
+}
+
+    
+.navbar-header 
+{
+    min-height:150px;
+    background-color: transparent;
+       
+}
+
+.navbar-brand
+{
+        height: auto;
+    padding: 10px 20px;
+}
+
+.logo
+{
+    background-color:transparent;
+    width:120px;
+    height:120px;
+    
+}
+
+.navbar-default
+{
+    background-color:transparent;
+    border: 0px solid #ffffff;
+}
+
+#navbar-collapse-1
+{
+        background-color:transparent;
+        border: 0px solid #ffffff;
+}
+
+.navbar-default .navbar-nav >li>a
+{
+    font-size:18px; 
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color:#ffffff;
+/*    border-radius: 10px;*/
+/*    background-color:transparent;*/
+/*    border: 1px solid #ffffff;*/
+
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
+{
+        color:#ffffff;
+        background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+        color:#919191;
+        background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+{
+        color:#ffffff;
+        background-color:transparent;
+}
+
+/*End Of Navbar CSS*/
+
+
+#skyline 
+{
+    
+    background-image: url(../images/skyline.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    position: relative;
+    top: -30px;
+    
+}
+
+
+
+/*Footer CSS*/
+
+
+footer
+{
+    border-top: 1px solid #585858;
+    margin: 10px;
+    font-size: 16px;
+    padding-top:20px;
+    color: #e6e6e6;
+}
+
+/*End Of Footer CSS*/
+
+
+
+
+/*Social Icons*/
+
+
+ #social_icon ul
+{
+        position: absolute;
+}
+
+ 
+#social_icon ul li
+{
+    
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+#con
+{
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+#social_icon ul li a
+{
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+}
+ 
+#social_icon ul li a i 
+{
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    opacity: 0.8;
+}
+ 
+/*To add the social media default colors you just add some extra CSS rules*/
+ 
+.fa-facebook 
+{
+    background: #4D4948;
+}
+
+.fa-linkedin
+{
+    background: #4D4948;
+}
+
+.fa-twitter
+{
+    background: #4D4948;
+}
+
+/*To add in a hover state transition, a bit more CSS*/
+
+#social_icon ul li a i 
+{
+    transition: all 0.2s ease-in-out;
+}
+
+#social_icon  ul li a i:hover
+{
+    opacity: 2;
+}
+
+
+/*End of Social Icons CSS*/
+
+
+/*Media Query CSS*/
+
+@media (min-width:992px)
+{
+    
+    /*Navbar CSS*/
+    body
+    {
+        background-image: url(../images/background.jpg);
+         background-repeat: no-repeat;
+     }
+    
+    .navbar
+    {
+        min-height:150px; 
+    }
+
+    .navbar-header 
+    {
+        min-height:150px;
+    }
+
+    .navbar-nav 
+    {
+        margin-top: 20px;
+        padding-top:20px; 
+    }
+
+    .navbar .nav li    
+    {
+        padding:20px 20px;
+
+    }
+    
+    /*End Of Navbar CSS*/
+    
+    
+/*Skyline CSS*/
+
+#skyline 
+{
+    
+/*    border: 1px solid white;*/
+/*    color: white;*/
+/*    text-align: right;*/
+    background-image: url(../images/skyline.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 130px;
+    margin-top:0px;
+    margin-bottom: -30px;
+    position: relative;
+    top: -30px;
+    
+}
+
+#skyline p 
+{
+    
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+#skyline span
+{
+    font-size: 30px;
+}
+
+
+/*End Of Skyline CSS*/
+
+    #social_icon ul li 
+    {
+        padding-left: 10px; 
+        margin-top: 0px;
+    }
+
+
+}
+
+
+/*End Of Media Query CSS*/
+
+
+
+
+
+
+
+
+
+
+
+

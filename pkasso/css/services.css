@@ -1,0 +1,25 @@
+
+.serv
+{
+    margin-bottom: 20px;
+}
+
+.serv h3
+{
+     font-size: 18px;
+     text-transform: uppercase;
+
+}
+
+.serv-content
+{
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.serv-list
+{
+    padding: 10px;
+}
