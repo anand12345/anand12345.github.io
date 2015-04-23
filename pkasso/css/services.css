@@ -1,9 +1,4 @@
 
-.serv
-{
-    margin-bottom: 20px;
-}
-
 .serv h3
 {
      font-size: 18px;
@@ -22,4 +17,23 @@
 .serv-list
 {
     padding: 10px;
+}
+
+
+@media (min-width:992px)
+{
+
+.serv
+{
+    margin-bottom: 10px;
+    height: 30vh;
+}
+
+.img1
+{
+    height: 25vh;
+    width: auto;
+
+}
+    
 }

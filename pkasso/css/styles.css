@@ -1,16 +1,15 @@
 body
 {
     
-    background-color: #141517;  
+    background-color: #141517;
+    height:100vh;
 }
-
 
 /*Navbar CSS*/
 
-
 .navbar
 {
-        min-height:150px; 
+        min-height:120px; 
         background-color:transparent;
         margin:0px;
         padding:0px;
@@ -26,7 +25,6 @@ body
     
 .navbar-header 
 {
-    min-height:150px;
     background-color: transparent;
        
 }
@@ -34,14 +32,14 @@ body
 .navbar-brand
 {
         height: auto;
-    padding: 10px 20px;
+/*        padding: 10px 20px;*/
 }
 
 .logo
 {
     background-color:transparent;
-    width:120px;
-    height:120px;
+    width:100px;
+    height:100px;
     
 }
 
@@ -59,8 +57,8 @@ body
 
 .navbar-default .navbar-nav >li>a
 {
-    font-size:18px; 
-    font-family: 'Open Sans', sans-serif;
+    font-size:16px; 
+    font-family:serif;
     text-transform: uppercase;
     color:#ffffff;
 /*    border-radius: 10px;*/
@@ -79,35 +77,33 @@ body
 
 .navbar-default .navbar-nav>li>a
 {
-        color:#919191;
+         color:#ffffff;
         background-color:transparent;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus
 {
-        color:#ffffff;
+        color:#afabab;
         background-color:transparent;
 }
 
 /*End Of Navbar CSS*/
 
-
-#skyline 
+.baner1
 {
-    
-    background-image: url(../images/skyline.svg);
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    height:15vh;
+    background-image: url(../images/baner4.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: -30px;
+    margin-top:10px;
+    margin-bottom: -60px;
     position: relative;
-    top: -30px;
     
 }
-
-
 
 /*Footer CSS*/
 
@@ -115,9 +111,10 @@ body
 footer
 {
     border-top: 1px solid #585858;
-    margin: 10px;
-    font-size: 16px;
-    padding-top:20px;
+    font-size: 14px;
+    padding-top:5px;
+    margin-bottom: 0px;
+    margin-top:5px; 
     color: #e6e6e6;
 }
 
@@ -145,16 +142,24 @@ footer
 
 #con
 {
-    padding: 10px;
-    font-size: 16px;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+
+#con1
+{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-left: 10px;
 
 }
 
 #social_icon ul li a
 {
     color: #ffffff;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     margin-right: 10px;
     padding-top: 15%;
@@ -163,10 +168,10 @@ footer
 #social_icon ul li a i 
 {
     color: #fff;
-    width: 42px;
-    height: 42px;
+    width: 35px;
+    height: 35px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-right: 10px;
     padding-top: 15%;
@@ -220,70 +225,74 @@ footer
     
     .navbar
     {
-        min-height:150px; 
+        height:15vh; 
     }
 
     .navbar-header 
     {
-        min-height:150px;
+       height: 15vh;
     }
 
+/*
     .navbar-nav 
     {
         margin-top: 20px;
         padding-top:20px; 
     }
+*/
 
+    .navbar .nav   
+    {
+        height: 5vh;
+
+    }
     .navbar .nav li    
     {
-        padding:20px 20px;
+        padding:10px 10px 10px 0px;
 
     }
     
     /*End Of Navbar CSS*/
     
-    
-/*Skyline CSS*/
 
-#skyline 
+    
+#div1
 {
+     height:15%;
+}
     
-/*    border: 1px solid white;*/
-/*    color: white;*/
-/*    text-align: right;*/
-    background-image: url(../images/skyline.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 130px;
-    margin-top:0px;
-    margin-bottom: -30px;
-    position: relative;
-    top: -30px;
-    
+#div2
+{
+     height:72%;
 }
 
-#skyline p 
+#div3
 {
+     height:5%;
+}
+
+        
+.carousel slide
+{
+    height:72%;
+
+}
+
     
-    color: white;
-    position: absolute;
-    right: 5px;
-    bottom: 10px;
-}
-
-#skyline span
+.carousel-inner
 {
-    font-size: 30px;
+    height:72%;
+    width: auto;
+
 }
 
 
-/*End Of Skyline CSS*/
 
-    #social_icon ul li 
-    {
+#social_icon ul li 
+{
         padding-left: 10px; 
         margin-top: 0px;
-    }
+}
 
 
 }
