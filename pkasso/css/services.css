@@ -8,10 +8,10 @@
 
 .serv-content
 {
-    font-family: 'Droid Serif', serif;
+    font-family:  sans-serif;
     font-size: 16px;
     color: white;
-
+    padding-left: 30px;
 }
 
 .serv-list
