@@ -168,6 +168,7 @@ footer
 #con1
 {
     padding-top: 10px;
+/*    margin-left: 30px;*/
     font-size: 14px;
 /*    margin-left: 5px;*/
 
@@ -210,6 +211,16 @@ footer
 
 /*Media Query CSS*/
 
+@media (min-width: 768px) {
+    #con1{
+/*        padding-top: 10px;*/
+        margin-left: 100px;
+/*        font-size: 14px;*/
+    /*    margin-left: 5px;*/
+
+    }
+}
+
 @media (min-width:992px)
 {
     
@@ -251,50 +262,55 @@ footer
     /*End Of Navbar CSS*/
     
 
+
+    #div1
+    {
+         height:15%;
+    }
+
+    #div2
+    {
+         height:72%;
+    }
+
+    #div3
+    {
+         height:5%;
+    }
+
+
+    .carousel slide
+    {
+        height:72%;
+
+    }
+
+
+    .carousel-inner
+    {
+        height:72%;
+        width: auto;
+
+    }
     
-#div1
-{
-     height:15%;
-}
-    
-#div2
-{
-     height:72%;
-}
+    #con1{
+        margin-left: 130px;
 
-#div3
-{
-     height:5%;
-}
-
-        
-.carousel slide
-{
-    height:72%;
-
-}
-
-    
-.carousel-inner
-{
-    height:72%;
-    width: auto;
-
-}
+    }
 
 
 
-#social_icon ul li 
-{
-        padding-left: 10px; 
-        margin-top: 0px;
-}
+    #social_icon ul li 
+    {
+            padding-left: 10px; 
+            margin-top: 0px;
+    }
 
 
 }
 
 
-/*End Of Media Query CSS*/
+    /*End Of Media Query CSS*/
 
 
 
