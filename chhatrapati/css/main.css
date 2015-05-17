@@ -81,7 +81,7 @@ table {
 
 .about_staff
 {
-    margin: 48px;
+    margin: 48px auto;
 }
 
 .faculty {
@@ -154,10 +154,22 @@ table {
 .footer li
 {
     font-size:16px; 
+    transition-duration: .2s;
     font-family: 'Roboto', sans-serif;
     color:rgba(255, 255, 255, 0.70);
     margin:16px;
     text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+/*    color:rgba(255, 255, 255, 0.70);*/
+    transition-duration: .2s;
+}
+
+.footer a:hover>li {
+    transition-duration: .2s;
+    color: rgb(255, 255, 255);
 }
 
 .footer_bottom h2
