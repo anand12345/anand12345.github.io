@@ -1,0 +1,180 @@
+.logo_top
+{
+    height:160px;
+    border:2px solid rgba(0, 0, 0, 0.48);
+    display: block;
+    margin:16px auto;
+    width: 171px;
+}
+
+.logo
+{
+    height:156px;
+    width: 171px;
+}
+.banner_heading_top
+{ 
+    margin: 40px 16px; 
+    text-align: center;
+}
+
+.banner_heading_top h1
+{
+    font-size:32px;
+    font-family: 'Roboto', sans-serif;
+    color:rgba(18, 143, 190, 0.87);
+}
+
+.banner_heading_top h4
+{
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(18, 143, 190, 0.54);
+}
+
+/*Navbar CSS*/    
+.navbar-header 
+{
+    background-color:#128FBE;       
+}
+.navbar-default
+{
+    background-color:#128FBE;
+    border: 0px solid #128FBE;
+}
+
+#navbar-collapse-1
+{
+        background-color:transparent;
+        border: 0px solid #128FBE;
+}
+
+.navbar-default .navbar-nav >li
+{
+   
+    padding:16px 5px; 
+}
+
+.navbar-default .navbar-nav >li>a
+{
+    font-size:18px; 
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
+{
+        color:#ffffff;
+        background-color:#1fc2ff;
+        border-bottom: 2px solid #1fc2ff; 
+        
+}
+
+.navbar-default .navbar-nav>li>a
+{
+        color:#ffffff;
+        background-color:#128FBE;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+{
+        color:#ffffff;
+/*        border-bottom: 2px solid #ffa726; */
+        background-color:#128FBE;    
+}
+
+.dropdown>ul
+{
+    background-color:#128FBE;
+}
+.dropdown>ul>li>a
+{
+    background-color:#128FBE;
+    font-size:18px;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.dropdown>ul>li>a:hover,
+.dropdown>ul>li>a:focus
+{
+     color:#ffffff;
+     background-color:#128FBE;
+     font-family: 'Roboto', sans-serif;
+     font-size:18px;
+}
+
+/*
+
+.icon-bar
+{
+    color: #dd3281;
+    background-color: #dd3dc4;
+}
+.icon-bar:hover
+{
+    color: #ed33e6;
+    background-color: #af9f4a;
+}
+
+.navbar-toggle{
+    color: #215481;
+    background-color: #0e528e;
+
+}
+
+.navbar-toggle:hover{
+    color: #1f74bf;
+    background-color: #004581;
+
+}
+
+.navbar-toggle:active{
+    color: #834d0e;
+    background-color: #de8831;
+
+}
+*/
+/*End Of Navbar CSS*/
+
+
+
+@media (min-width:992px)
+{
+ .logo_top
+{
+    margin:16px;
+}
+
+.banner_heading_top
+{ 
+    margin:16px;
+    height:160px;
+}
+    
+.banner_heading_top h1
+{
+    font-size:40px;
+}
+
+.banner_heading_top h4
+{
+    font-size:20px;
+}
+
+    
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+{
+        color:#ffffff;
+        border-bottom: 2px solid #1fc2ff; 
+        background-color:#128FBE;    
+}
+
+   
+}
