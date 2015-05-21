@@ -1,0 +1,225 @@
+#myCarousel
+{
+    margin: 16px;
+}
+
+.carousel-control.right,
+.carousel-control .glyphicon glyphicon-chevron-right {
+	left:auto;
+	right:-16px;
+    color:#fff;
+
+}
+.carousel-control.left,
+.carousel-control .glyphicon glyphicon-chevron-left{
+	right:auto;
+	left:-16px;
+    color:#fff;
+
+}
+
+.content h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.26);*/
+    margin-bottom: 0px;
+}
+
+#noticeBoard {
+    max-width: 768px;
+    margin: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.26);
+    margin-bottom: 96px;
+    padding-bottom: 24px;
+}
+
+#results , 
+#questionPapers {
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    margin-bottom: 96px;
+}
+
+
+#noticeBoard div,
+#results div, 
+#questionPapers div {
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.26);*/
+    padding: 0px 16px 48px;
+}
+
+#results p, 
+#questionPapers p{
+    text-align: center;
+    margin: 0;
+}
+
+#noticeBoard a, 
+#results a, 
+#questionPapers a {
+    transition-duration: 0.2s;
+    text-decoration: none;
+    background: #ff9800;
+    color: white;
+    font-size: 16px;
+    padding: 16px 0;
+    width: 144px;
+    display: inline-block;
+    margin: 0;
+}
+
+#noticeBoard a:hover, 
+#results a:hover, 
+#questionPapers a:hover {
+    transition-duration: 0.2s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.26);
+/*    text-decoration: none;*/
+}
+
+#questionPapers p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 16px 0;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    background-color:#263238;
+    color: white;
+    font-family:'Roboto', sans-serif;
+}
+
+.footer h3
+{
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size:16px; 
+    margin:16px;
+    text-transform: uppercase;
+}
+
+.foot_div
+{
+/*    border: 1px solid #ffa726;*/
+    margin: 48px auto;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer li
+{
+    font-size:16px; 
+    transition-duration: .2s;
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.70);
+    margin:16px;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+/*    color:rgba(255, 255, 255, 0.70);*/
+    transition-duration: .2s;
+}
+
+.footer a:hover>li {
+    transition-duration: .2s;
+    color: rgb(255, 255, 255);
+}
+
+.footer_bottom h2
+{
+    color: rgba(255, 255, 255, 0.30);
+    font-family:'Roboto', sans-serif;
+    font-size:16px; 
+    text-align: center;
+/*    margin:14px 16px;*/
+}
+
+
+
+@media (min-width:992px)
+{
+
+    #myCarousel
+    {
+        margin:48px;
+    }
+
+
+    .carousel-control {
+        color:#ef6c00;
+        top:44%;
+        bottom:auto;
+        padding-top:8px;
+        width:56px;
+        border-radius:50%;
+        height:56px;
+        opacity:1;
+        transition-duration:0.5s;
+    }
+
+    .carousel-control:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.54);
+        transition-duration:.5s;
+    }
+
+    .carousel-control.right,
+    .carousel-control .glyphicon glyphicon-chevron-right {
+        left:auto;
+        right:-16px;
+        background:rgba(0, 0, 0, 0.26);
+    }
+    .carousel-control.left,
+    .carousel-control .glyphicon glyphicon-chevron-left{
+        right:auto;
+        left:-16px;
+        background:rgba(0, 0, 0, 0.26);
+
+
+    }
+
+    .slide1
+    {
+        width: 100%;
+    }
+    
+    .footer_bottom h2{
+        text-align: left;
+    }
+
+
+    
+}
