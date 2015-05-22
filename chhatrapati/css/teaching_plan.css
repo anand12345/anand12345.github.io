@@ -1,10 +1,11 @@
-.xii_plan
+.teching_plan
 {
     margin: 48px 24px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.54);
+    
 }
 
-.xii_plan h1
+.teching_plan h1
 {
     text-align: center;
     border-bottom:1px solid rgba(0, 0, 0, 0.26);
@@ -21,11 +22,13 @@ object p
 
 }
 
+
 @media (min-width:992px)
 {
-.xii_plan{
-    margin: 48px auto;
+.teching_plan{
+    margin: 48px auto;   
 }
+
 .embed-slide
 {
     margin:34px 200px;  
