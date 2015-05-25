@@ -8,7 +8,8 @@
 .contact_div h3 {
     text-align: center;
     color:rgba(0, 0, 0, 0.87);
-    margin-bottom: 48px;
+    padding-bottom:16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 }
 
 .contact_div p{

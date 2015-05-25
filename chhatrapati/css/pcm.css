@@ -1,0 +1,36 @@
+.pcm
+{
+    margin: 48px 24px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.54);
+    
+}
+
+.pcm h1
+{
+    text-align: center;
+    border-bottom:1px solid rgba(0, 0, 0, 0.26);
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: uppercase;
+}
+
+object p
+{
+    padding: 16px;
+
+}
+
+
+@media (min-width:992px)
+{
+.pcm
+{
+    margin: 48px auto;    
+}
+.embed-slide
+{
+    margin:34px 200px;  
+}
+}

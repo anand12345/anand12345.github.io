@@ -1,0 +1,200 @@
+#myCarousel
+{
+    margin: 16px;
+}
+
+.carousel-control.right,
+.carousel-control .glyphicon glyphicon-chevron-right {
+    left:auto;
+    color:#ffa726;
+}
+.carousel-control.left,
+.carousel-control .glyphicon glyphicon-chevron-left{
+	right:auto;
+    color:#ffa726;
+
+}
+
+.carousel-inner{
+    widows: 100%;
+}
+
+.slide1
+{
+    width:100%;
+}
+
+table {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.54);
+    width: 100%;
+}
+
+
+.table_1
+{
+    margin:48px auto;
+} 
+
+.table_1 th
+{
+    font-size:12px;
+    color:rgba(0, 0, 0, 0.54);
+    font-family:'Roboto', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+    padding: 18px 0px 18px 24px;
+    text-transform: uppercase;   
+}
+
+
+.table_1 td
+{
+    font-size:13px;
+    color:rgba(0, 0, 0, 0.87);
+    font-family:'Roboto', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 18px 0px 18px 24px;
+}
+
+
+
+#tab_title1,
+#tab_title2
+{
+    text-align:center;
+    font-size:24px;
+    padding:0px auto;
+    color:rgba(0, 0, 0, 0.87);
+    font-family:'Roboto', sans-serif;
+    border-bottom: 2px solid white;
+    padding: 18px 0;
+    font-weight: 400;
+    
+}
+
+
+.show_more,.show_more a
+{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 24px;
+    color:#ef6c00;
+}
+
+
+.about_staff
+{
+    margin:48px 24px;
+}
+
+.faculty {
+    margin: 48px auto;
+    padding: 24px;
+    transition-duration: 0.2s;
+    
+}
+
+.faculty:hover {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.26);
+    transition-duration: 0.2s;
+}
+
+.about_staff h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+    text-align: center;
+    margin:14px auto;
+    text-transform: uppercase;
+}
+.about_staff img
+{
+      display: block;
+      margin: auto;
+}
+.about_staff h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    text-align: center;
+    margin:14px auto;
+    color: rgba(0, 0, 0, 0.87);
+}
+.about_staff p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    text-align: center;
+    margin:14px auto;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+@media (min-width:992px)
+{
+    
+#myCarousel
+{
+    margin:48px;
+
+}
+    
+    
+.carousel-control {
+	color:#ef6c00;
+	top:44%;
+
+	bottom:auto;
+	padding-top:8px;
+	width:56px;
+	border-radius:50%;
+	height:56px;
+	opacity:1;
+    transition-duration:0.5s;
+}
+    
+.carousel-control:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.54);
+    transition-duration:.5s;
+}
+    
+.carousel-control.right,
+.carousel-control .glyphicon glyphicon-chevron-right {
+	left:auto;
+	right:-16px;
+    color:#ef6c00;
+    background:rgba(0, 0, 0, 0.26);
+}
+.carousel-control.left,
+.carousel-control .glyphicon glyphicon-chevron-left{
+	right:auto;
+	left:-16px;
+    color:#ef6c00;
+    background:rgba(0, 0, 0, 0.26);
+    
+
+}
+    
+.carousel-inner{
+    width: 100%;
+    height: 500px;
+}
+    
+.about_staff
+{
+    margin:48px auto;
+}
+
+.slide1
+{
+    width: 100%;
+    height: 500px;
+}
+  
+#tab_title1,
+#tab_title2
+{
+    text-align:center;
+}
+
+}

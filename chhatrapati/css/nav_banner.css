@@ -86,16 +86,54 @@
         background-color:#ffa726; 
 }
 
+
+#toggle_button{
+    background-color:#ef6c00;
+    color: white;
+    border: 1px solid #ef6c00;
+}
+#toggle_button:hover,#toggle_button:focus,#toggle_button:active
+{
+    background-color:#ffa726;
+    color: white;
+}
+
+#icon_bar1{
+    color: white;
+    background-color:white;
+}
+
+   
+    
+#dropdown{
+     background-color:transparent;
+     color: white;
+}
+/*
+#dropdown a:hover,
+#dropdown a:focus,
+#dropdown a:active,
+#dropdown a
+{
+     background-color:#ffa726;
+     color: white;
+}
+*/
+ 
+/*
 .dropdown>ul
 {
     background-color:#ef6c00;
+    color:#ffffff;
 }
+
 .dropdown>ul>li>a
 {
-    background-color:#ef6c00;
-    font-size:12px;
-    color:#ffffff;
+    text-decoration: none;
+    font-size:14px;
     font-family: 'Roboto', sans-serif;
+    background-color:transparent;
+    color:#ffffff;
 
 }
 
@@ -103,15 +141,41 @@
 .dropdown>ul>li>a:hover,
 .dropdown>ul>li>a:focus
 {
-     color:#ffffff;
-     background-color:#ffa726;
+     
+     text-decoration: none;
      font-family: 'Roboto', sans-serif;
-     font-size:12px;
+     font-size:14px;
+     background-color:#ffa726;
+     color:#ffffff;
 }
+*/
+
+#dropdown1 li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#dropdown1 li a:hover,
+#dropdown1 li a:focus,
+{
+    text-decoration: none;
+    color: white;
+    background-color:#ffa726; 
+}
+#dropdown1 >.active>a
+{
+    text-decoration: none;
+    color: white;
+    background-color:#ffa726;
+
+}
+/*
 
 .dropdown-toggle{
     background-color:#ffa726;  
 }
+*/
 
 /* End Of Navbar CSS*/ 
 
@@ -157,16 +221,26 @@
         border-bottom: 2px solid #ffa726; 
         background-color:#ef6c00;    
 }
+   
+.dropdown>ul
+{
+    background-color:#ef6c00;
+    color:#ffffff;
+}
     
 .dropdown>ul>li>a{
     font-size:18px;
+    background-color:#ef6c00;
 }
     
 .dropdown>ul>li>a:hover,
 .dropdown>ul>li>a:focus
 {
      font-size:18px;
+     background-color:#ffa726;
 }
+    
+/*
     
 #dropdown{
      background-color:#ef6c00;
@@ -179,6 +253,7 @@
      background-color:#ffa726;
 }
     
+*/
 
    
 }

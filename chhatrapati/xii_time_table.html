@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-9 banner_heading_top">
             <h4>Dnyan Vikas Shikshan Prasarak Sanstha, Latur</h4>
-            <h1>Chattrapati Shivaji Science Junior College, Latur</h1>
+            <h1>Chhatrapati Shivaji Science Junior College, Latur</h1>
         </div>
         </div>
     </div>
@@ -47,11 +47,12 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        id="toggle_button">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar" id="icon_bar1"></span>
+                    <span class="icon-bar" id="icon_bar1"></span>
+                    <span class="icon-bar" id="icon_bar1"></span>
                 </button> 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,23 +61,28 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="#">CET Cell</a>
-                    </li>
+                    <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="dropdown">
+                            CET Cell<span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu" id="dropdown1">
+                            <li><a href="pcm.html">PCM Cell</a></li>
+                            <li><a href="pcb.html">PCB Cell</a></li>
+                          </ul>
+                        </li>
                       <li class="dropdown active">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >
                              Junior College<span class="caret"></span></a>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Academics</a></li>
-                            <li><a href="#">Administration</a></li>
+                          <ul class="dropdown-menu" role="menu" id="dropdown1">
+                            
+                            <li><a href="administration.html">Administration</a></li>
                             <li><a href="xi_time_table.html">XI Time Table</a></li>
-                            <li><a href="xii_time_table.html">XII Time Table</a></li>
+                            <li class="active"><a href="xii_time_table.html">XII Time Table</a></li>
                             <li><a href="teaching_plan.html">XII Time Table - 2016</a></li>
                             <li><a href="merit_list.html">Merit List</a></li>
                           </ul>
                         </li>
                     <li>
-                        <a href="#">Online Registration</a>
+                        <a href="http://resoneuronance.com/reg/reg/">Online Registration</a>
                     </li>
                     <li>
                         <a href="gallery.html">gallery</a>
@@ -143,18 +149,18 @@
           <div class="container">
               <div class="row">
               <div class="col-sm-3 foot_div">
-                  <h3>Schools</h3>
+                  <h3>Quick Links</h3>
                   <ul>
-                      <li>School Of Science</li>
-                      <li>School Of Gallery</li>
+                      <a href="http://resoneuronance.com/reg/reg/"><li>Online Registration</li></a>
+                      <a href="about.html"><li>About Us</li></a><a href="contact.html"><li>Contact  Us</li></a>
                   </ul>
               </div>
               <div class="col-sm-3 foot_div">
-                  <h3>Science</h3>
+                  <h3>Our Achievers</h3>
                    <ul>
-                      <li>Electronics</li>
-                      <li>Computer Science</li>
-                      <li>General Studies</li>
+                      <a href="pcm.html"><li>In PCM</li></a>
+                      <a href="pcb.html"><li>In PCB</li></a>
+                    
                   </ul>
               </div>
                <div class="col-sm-3 foot_div">
@@ -162,15 +168,16 @@
                    <ul>
                        <a href="gallery.html#img_slider_1"><li>Toppers CET 2015</li></a>
                        <a href="gallery.html#img_slider_2"><li>Test Series Send Off</li></a>
-                       <a href="gallery.html#img_slider_3"><li>JEE Main Selected</li></a>
+                       <a href="gallery.html#img_slider_3"><li>JEE Mains Selected</li></a>
+                       <a href="gallery.html#img_slider_4"><li>Seminar 2015</li></a>
                   </ul>
               </div>
               <div class="col-sm-3 foot_div">
                   <h3>Administration</h3>
                    <ul>
-                      <li>Principal</li>
-                      <li>Vice Principal</li>
-                      <li>Science HOD</li>
+                      <a href="administration.html#profile1"><li>President</li></a><a href="administration.html#profile2"><li>Vice - President</li></a><a href="administration.html#profile3"><li>Secretary</li></a><a href="administration.html#profile4"><li>Joint - Secretary</li></a><a href="administration.html#profile5"><li>Treasurer</li></a><a href="administration.html#profile6"><li>Principal</li></a>
+                      
+                      
                       <li>Gallery HOD</li>
                   </ul>
               </div>
@@ -179,10 +186,10 @@
           <div class=" container footer_bottom">
               <div class="row">
               <div class="col-md-8">
-                  <h2>Copyright Chattrapati Shivaji College, Latur</h2>
+                  <h2>&#169; Chhatrapati Shivaji College, Latur</h2>
               </div>
               <div class="col-md-4">
-                  <h2>Designer & Developer : Resoneuronance</h2>
+                  <h2>Designer & Developer : <a href="http://www.resoneuronance.com/">Resoneuronance</a></h2>
               </div>
           </div>
           </div>
