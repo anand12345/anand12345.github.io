@@ -1,0 +1,26 @@
+body{
+/*    background-color: skyblue;*/
+    font-family: 'Roboto', sans-serif;
+}
+.logout{
+    border:1px solid rgba(0, 0, 0, 0.26);
+    margin:auto; 
+    padding:0px 16px;
+}
+
+.logout h3{
+    font-size: 20px;
+    
+}
+
+.logout a{
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+    margin: 10px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.logout a:hover{
+    color: rgba(0, 0, 0, 0.87);
+}

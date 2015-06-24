@@ -1,0 +1,611 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Registration Form</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+         
+    <div class="container reg_form">
+            
+        <form role="form" method="post" action="registration.php" id="form1" enctype="multipart/form-data" name="form">
+            <h3 class="banner_heading"> Registration Form</h3>
+                       <h3 class="label-heading">Full Name </h3>
+        <div class="row">
+            <div class="col-md-2">
+                <label for="surname">Surname</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="surname" placeholder="Surname" id="surname" 
+                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-2">
+                <label for="first_name">First Name :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="first_name" placeholder="First Name" id="first_name"
+                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" autocomplete="name" required>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-2">
+                <label for="father_name">Father Name :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="father_name" placeholder="Father Name" id="father_name"
+                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
+            </div>
+        </div>
+            
+                 
+        <div class="row">
+            <div class="col-md-2">
+                <label for="mother_name">Mother Name :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="mother_name" placeholder="Mother Name" id="mother_name" 
+                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
+            </div>
+        </div>
+            
+              <h3 class="label-heading"> Contact No :</h3>
+        <div class="row">
+            <div class="col-md-2">
+                <label for="parent_mob_no">Parent Mob No.</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="parent_mob_no" id="parent_mob_no" placeholder="+91-0000000000" 
+                    title="Enter Mobile No." maxlength="16" autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required>
+            </div>
+        </div>
+              <div class="row">
+            <div class="col-md-2">
+                <label for="student_mob_no">Student Mob No.</label>
+            </div>
+            <div class="col-md-6">
+                <input type="tel" class="form-control" name="student_mob_no" id="student_mob_no" placeholder="+91-0000000000"
+                         title="Enter Mobile No." maxlength="16"  autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$"
+                       required>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-2">
+                <label for="landline_ph_no">Landline Ph. No.</label>
+            </div>
+            <div class="col-md-6">
+                <input type="tel" class="form-control" name="landline_ph_no" id="landline_ph_no" placeholder="02382-000000"
+                        title="Enter Landline No." maxlength="15" autocomplete="tel" required>
+            </div>
+        </div>
+            
+
+            
+        <div class="row">
+            <div class="col-md-2">
+            <label for="email"> Email ID :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="email" autocomplete="email" placeholder="name@example.com" 
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control" name="email" id="email" required>
+            </div>
+            
+        </div>
+            
+        <h3 class="label-heading">Permanent Address :</h3>
+            <div class="row">
+            <div class="col-md-2">
+                <label for="father_full_name">Father Full Name :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="father_full_name"  id="father_full_name"
+                       placeholder="Firstname Middlename Surname"  required>
+            </div>
+            </div>
+            
+            <div class="row">    
+            <div class="col-md-2">
+                <label for="area">Street/Area:</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="area"  id="area" placeholder="123 Any Street"  
+                       autocomplete="street-address" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="town">Town/Village :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="town"  id="town" pattern="[a-zA-Z]*" required>
+            </div>
+            </div>
+            
+           <div class="row">
+            <div class="col-md-2">
+                <label for="tq">Tq :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="tq"  id="tq" pattern="[a-zA-Z]*" autocomplete="region" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="district">District :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="district"  id="district" pattern="[a-zA-Z]*" autocomplete="address-level2" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="pincode">Pincode :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="number" class="form-control" name="pincode"  id="pincode"  maxlength="6" autocomplete="postal-code" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="state">State :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="state"  id="state" pattern="[a-zA-Z]*" autocomplete="address-level1" required>
+            </div>
+            </div>
+            
+            <h3 class="label-heading">Correspondence Address: </h3>
+            <div class="row">    
+            <div class="col-md-2">
+                <label for="area2">Street/Area:</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="area2"  id="area2" placeholder="123 Any Street" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="town2">Town/Village :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="town2"  id="town2" pattern="[a-zA-Z]*" required>
+            </div>
+            </div>
+            
+           <div class="row">
+            <div class="col-md-2">
+                <label for="tq2">Tq :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="tq2"  id="tq2" pattern="[a-zA-Z]*" required>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-2">
+                <label for="district2">District :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="district2"  id="district2" pattern="[a-zA-Z]*" required>
+            </div>
+            </div>
+            
+            <h3 class="label-heading">Personal Information</h3>
+        <div class="row">
+            <div class="col-md-2">
+                <label for="guardians_occupation">Guardian's Occupation :</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="guardians_occupation" id="guardians_occupation" maxlength="30"
+                       placeholder="eg: Farmer" required>
+            </div>
+        </div>
+            
+        <div class="row">
+           <div class="col-md-2">
+                <label for="annual_income">Annual Income:</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" name="annual_income" id="annual_income" maxlength="20" placeholder="20000" required>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-2">
+                <label>Gender :</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" value="Male" name="gender" required>Male</label>
+                  <label><input type="radio" value="Female" name="gender">Female</label>
+                </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-2">
+                <label for="nationality">Nationality</label>
+             </div>
+             <div class="col-md-2">
+                 <select class="form-control input-sm" id="nationality" name="nationaliity" required>
+                     <option>Indian</option>
+                     <option>Other</option>
+                 </select>
+                </div>
+             </div>
+            
+            <div class="row">
+                        <div class="col-md-2"> 
+                            <label for="category">Category</label>
+                        </div>
+                        <div class="col-md-2">
+                            <select class="form-control input-sm" id="category" name="category" required>
+                                <option>OPEN</option>
+                                <option>SC</option>
+                                <option>ST</option>
+                                <option>VJDT</option>
+                                <option>NT1</option>
+                                <option>NT2</option>
+                                <option>NT3</option>
+                                <option>OBC</option>
+                                <option>SBC</option>
+                            </select>
+                        </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-2">
+                <label for="religion"> Religion :</label>
+             </div>
+             <div class="col-md-4">
+                <input type="text" class="form-control" name="religion" id="religion" required>
+             </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-2">
+                <label for="caste"> Caste :</label>
+             </div>
+             <div class="col-md-4">
+                <input type="text" class="form-control" name="caste" id="caste" required>
+             </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                <label>Handicapped :</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" value="yes" name="handicapped" required>Yes</label>
+                  <label><input type="radio" value="no" name="handicapped">No</label>
+                </div>
+            </div>
+            
+               <div class="row">
+                <div class="col-md-2">
+                <label>Defence Service:</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" value="yes" name="defence" required>Yes</label>
+                  <label><input type="radio" value="no" name="defence">No</label>
+                </div>
+            </div>
+            
+            <div class="row">
+                    <div class="col-md-2">
+                        <label for="datepicker">Date of Birth</label>
+                  </div>
+                    <div class="col-md-4">
+                        <input type="date" class="form-control" name="dd_date" id="datepicker"  required>
+                  </div>   
+           </div>
+            
+            <div class="row">
+              <div class="col-md-2">
+                <label for="birth_place"> Place of Birth :</label>
+             </div>
+             <div class="col-md-4">
+                <input type="text" class="form-control" name="birth_place" id="birth_place" maxlength="15"  required>
+             </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                <label>Type of Candidate:</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" value="Latur" name="candidate_type" required>Home District</label>
+                  <label><input type="radio" value="other" name="candidate_type">Other District</label>
+                </div>
+            </div>
+            
+        <h3 class="label-heading"> Details of Examination passed :</h3>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="SSC_board"> SSC Board:</label>
+                 </div>
+                 <div class="col-md-6">
+                    <input type="text" class="form-control" name="SSC_board" id="SSC_board" required>
+                 </div>   
+                <div class="col-md-2">
+                    <label for="SSC_year">Year of Passing:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="SSC_year" id="SSC_year" pattern="[0-9]{4}" required>
+                 </div>   
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="SSC_marks"> Marks Obtained :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="SSC_marks" id="SSC_marks" required>
+                 </div>
+                 <div class="col-md-2">
+                    <label for="SSC_outof"> Out of Marks :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="SSC_outof" id="SSC_outof" required>
+                 </div>
+                        <div class="col-md-2">
+                    <label for="SSC_percentage"> Percentage:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="SSC_percentage" id="SSC_percentage" 
+                           max= "100" min= "1" step="0.01"  required>
+                 </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="HSC_board"> HSC Board:</label>
+                 </div>
+                 <div class="col-md-6">
+                    <input type="text" class="form-control" name="HSC_board" id="HSC_board" required>
+                 </div>
+                <div class="col-md-2">
+                    <label for="HSC_year">Year of Passing:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="HSC_year" id="HSC_year" pattern="[0-9]{4}" required>
+                 </div>   
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="HSC_marks"> Marks Obtained :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="HSC_marks" id="HSC_marks" required>
+                 </div>
+                 <div class="col-md-2">
+                    <label for="HSC_outof"> Out of Marks :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="HSC_outof" id="HSC_outof" required>
+                 </div>
+                        <div class="col-md-2">
+                    <label for="HSC_percentage"> Percentage:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="HSC_percentage" id="HSC_percentage"
+                           max= "100" min= "1" step="0.01"  required>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="DPharm_board">D.Pharm Board:</label>
+                 </div>
+                 <div class="col-md-6">
+                    <input type="text" class="form-control" name="DPharm_board" id="DPharm_board" required>
+                 </div> 
+                <div class="col-md-2">
+                    <label for="DPharm_year">Year of Passing:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="DPharm_year" id="DPharm_year" required pattern="[0-9]{4}">
+                 </div> 
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <label for="DPharm_marks"> Marks Obtained :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="DPharm_marks" id="DPharm_marks" required>
+                 </div>
+                 <div class="col-md-2">
+                    <label for="DPharm_outof"> Out of Marks :</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="DPharm_outof" id="DPharm_outof" required>
+                 </div>
+                        <div class="col-md-2">
+                    <label for="DPharm_percentage"> Percentage:</label>
+                 </div>
+                 <div class="col-md-2">
+                    <input type="number" class="form-control" name="DPharm_percentage" id="DPharm_percentage"
+                           max= "100" min= "1" step="0.01"  required>
+                 </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-3">
+                <label for="mt_cet">MT-CET 2015 Score :</label>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" name="mt_cet" id="mt_cet" required>
+                </div>
+                <div class="col-md-3">
+                <label for="pcb/pcm_grouping">PCM / PCB Grouping :</label>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" name="pcb/pcm_grouping" id="pcb/pcm_grouping" required>
+                </div>
+            </div>
+            
+               <div class="row">
+                  <div class="col-md-3">
+                    <label for="last_school_name"> Last School/ College Name :</label>
+                 </div>
+                 <div class="col-md-8">
+                    <input type="text" class="form-control" name="last_school_name" id="last_school_name" required>
+                 </div>
+                </div>
+            
+            <h3 class="label-heading">Undertaking</h3>
+             <div class="row">
+            <div class="accept">
+            
+                <p id="undertaking">I hereby undertake that :
+                    <ol>
+                        <li>The information given in application form is true to the best of my knowledge .</li>
+                        <li>I will pay all fees and other charges ,if revised any time during the academic year.</li>
+                        <li>I will abide by rules and procedures of the institute.</li>
+                        <li>I am aware that even on Sunday , classes will be held for which I have no objection and I assure that I will give
+                            100% attendance for the classes held.</li>
+                        <li>I will not be withdrawn midway till completion of the course.</li>
+                        <li>If I fell to maintain 75% attendance , I know that my term automatically stands cancelled.</li>
+                        <li>I have not been debarred from appearing at any examination held by any Government constituted or statutory
+                            examination authority in India.</li>
+                        <li>I am aware that any rule imposed by the Board /University such as imposing limits on the number of attempts
+                            permissible to pass any examination shall be binding on me.</li>
+                        <li>I fully understand  that the principal of college where I would be admitted has  right to expel me from the college
+                            for any infringement of the rules and discipline prescribed by the college or Board /University.</li>
+                   </ol>
+                </p>
+              <div>
+                    <label for="accept_undertaking" id="accept_label">I accept above terms and conditions.</label>
+                      <input type="checkbox" value="accept" name="accept_undertaking" id="accept_undertaking" required>
+                </div>
+            </div>
+            </div>
+              
+            <h3 class="label-heading">Documents to be uploaded</h3>
+            <div class="row">
+                            <div class="col-md-12"> 
+                                <p>Note: Attach true Copies of all certificate & mark Statement.</p>
+                                <p>1) Compulsary -</p>
+                                <ul class="certificates">
+                                    <li>a) Leaving Certificate</li>
+                                    <li>b) SSC & HSC /D.Pharm Mark Sheet</li>
+                                </ul>
+                                
+                            </div>
+                            <div class="col-md-12">
+                                <p>2) Optional - (To whomsoever it may belong).</p>
+                                <ul class="certificates">
+                                    <li>a) Previously Passed Mark Sheet</li>
+                                    <li>b) MT-CET Score Card(if Applicable)</li>
+                                    <li>c) Caste Certificate and Validity Certificate</li>
+                                    <li>d) Non Creamy Layer Certificate</li>
+                                    <li>e) Age, Nationality, and Domicile Certificate</li>
+                                    <li>f) Gap Certificate</li>
+                                    <li>g) Income Certificate Xerox</li>
+                                    <li>h) Passport Size Photographs (Color - 4)</li>
+                                </ul>                                
+                                
+                            </div>
+                   </div>
+              
+                              <div class="col-md-12" id="input_file_list">
+                                <input name="file_upload[]" type="file" class="file_inputs_multiple" 
+                                      title="Leaving Certificate" multiple="multiple" required> 
+                                <input name="file_upload[]" type="file" class="file_inputs_multiple" 
+                                      title="SSC & HSC /D.Pharm Mark Sheet" multiple="multiple" required>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="button1 col-xs-12 col-md-8 " type="button" onclick="add_file()" >
+                                    Attach More Files &nbsp; <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="button1 col-xs-12 col-md-8" type="button" onclick="remove_file()">
+                                    Remove Files &nbsp;<span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </div>
+             
+                            
+             
+    
+            
+                 <div class="col-md-12" id="form_submit">
+                     <div class="col-md-4"></div>
+                            <div class="col-md-3 col-xs-6">
+                                  <button type="submit" class="button col-md-8 col-xs-12" name="submit" id="submit_form1">Submit</button>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                  <button type="reset" class="button col-md-8 col-xs-12">Clear Form</button>
+                            </div>
+                 </div>
+            </form>
+            
+    </div>
+
+            
+            
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        function add_file() {
+            var x = document.createElement("INPUT");
+             x.setAttribute("type","file");
+             x.setAttribute("name","file_upload[]");
+             x.setAttribute("class","file_inputs_multiple");
+            x.setAttribute("multiple","multiple");
+            document.getElementById("input_file_list").appendChild(x);
+        }
+
+        function remove_file() {
+            var list = document.getElementById("input_file_list");
+            list.removeChild(list.childNodes[0]);
+        }
+     </script>
+    
+        <script type="text/javascript">
+        $(document).ready(function() {
+               $('#s_name').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+                   $('#surname').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+                   $('#first_name').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+                   $('#father_name').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+                   $('#mother_name').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+              });
+        </script>
+                
+    
+
+    </body>
+    </html>
+        

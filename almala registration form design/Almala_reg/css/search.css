@@ -1,0 +1,43 @@
+.search_div{
+    margin: 48px auto;
+    box-shadow: 0 2px 3px rgba(20, 20, 20, 0.26);
+    font-family: 'Roboto', sans-serif;
+    padding: 24px;
+}
+
+.search_div h3{
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.87);
+    margin: 10px;
+}
+
+.search_div label{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.button
+{
+
+    margin:10px 0px;
+    padding: 10px 8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	background:#2196F3;
+	border: 0px;
+	border-radius: 2px;
+	cursor: pointer;
+
+
+}
+
+
+.button:hover 
+{
+	box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+}
