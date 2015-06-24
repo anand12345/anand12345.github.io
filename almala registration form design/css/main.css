@@ -6,35 +6,175 @@ body{
 
 
 .reg_form{
-    margin:16px;
+    margin:24px auto;
+    max-width: 768px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .26);
+    padding: 0;
 }
 
 .banner_heading{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
-    padding: 16px;
+    padding-top: 48px;
+    padding-bottom: 16px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.87);
 	font-family: 'Roboto', sans-serif;
+    background-color: #795548;
+    color: #fff;
+    margin: 0;
 /*    border-bottom: 1px solid rgba(0, 0, 0, 0.54);*/
 }
 
-.form-control,label{
+/*
+.form-control,label{ 
     margin: 8px;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 400;
 }
+*/
 
 .label-heading{
-    padding:8px;
-    margin: 24px auto;
+    padding:16px;
+/*    margin: 24px auto;*/
     font-size: 18px;
     color: rgba(0, 0, 0, 0.54);
-    font-weight: 400;
-    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    font-weight: 700;
+/*    border-top: 1px solid rgba(0, 0, 0, 0.26);*/
 }
+
+.inputLabel {
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.54);
+/*    font-size: 14px;*/
+    font-weight: 700;
+/*    padding-left: 20%;*/
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=number]
+{
+    display: block;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 16px auto;
+    width: 80%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);   /*    Black color opacity low */
+    transition-duration: 0.8s;
+}
+
+input[type=date]
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 16px auto;
+/*    width: 80%;*/
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);   /*    Black color opacity low */
+    transition-duration: 0.8s;
+}
+
+.dropdownOptions
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);   /*    Black color opacity low */
+    transition-duration: 0.8s;
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+.dropdownOptions:focus
+{
+    outline: none;
+    border-bottom: 2px solid #673AB7;   /*    Deep purple color  */
+
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+:-ms-input-placeholder {  
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.differentInputs {
+    padding: 16px 0;
+}
+
+input[type=radio] {
+    margin-left: 16px;
+    border: 0;
+    outline: none;
+}
+
+.radioLabel {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #undertaking {
     font-weight: 700;
@@ -122,11 +262,18 @@ body{
 
 @media (min-width:992px)
 {
-    
-    .reg_form{
-    margin: 24px auto;
-    }
 
+    .inputLabel {
+        position: relative;
+    }
+    input[type=text] {
+/* 
+        display: inline;
+        position: absolute;
+        right: 0;
+*/
+    }
+    
     .button1{
         margin:auto;
     }
