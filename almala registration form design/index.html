@@ -1,341 +1,266 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Registration Form</title>
+        <title>Registration Form</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 
-</head>
+    </head>
+    
+    <body>
          
-    <div class="container reg_form">
+        <div class="container reg_form">
             
-        <form role="form" method="post" action="registration.php" id="form1" enctype="multipart/form-data" name="form">
-            <h3 class="banner_heading"> Registration Form</h3>
-                       <h3 class="label-heading">Full Name </h3>
-        <div class="row">
-            <div class="col-md-2">
-                <label for="surname">Surname</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="surname" placeholder="Surname" id="surname" 
+            <form role="form" method="post" action="registration.php" id="form1" enctype="multipart/form-data" name="form">
+                
+                
+                <h3 class="banner_heading"> Registration Form</h3>
+                
+                <h3 class="label-heading">Full Name </h3>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="surname" placeholder="Surname" id="surname" 
                         pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
-            </div>
-        </div>
+                </div>
         
-        <div class="row">
-            <div class="col-md-2">
-                <label for="first_name">First Name :</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="first_name" placeholder="First Name" id="first_name"
-                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" autocomplete="name" required>
-            </div>
-        </div>
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="first_name" placeholder="First Name" id="first_name"
+                                pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" autocomplete="name" required>
+                </div>
         
-        <div class="row">
-            <div class="col-md-2">
-                <label for="father_name">Father Name :</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="father_name" placeholder="Father Name" id="father_name"
-                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
-            </div>
-        </div>
-            
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="father_name" placeholder="Father's Name" id="father_name"
+                                pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
+                </div>
                  
-        <div class="row">
-            <div class="col-md-2">
-                <label for="mother_name">Mother Name :</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="mother_name" placeholder="Mother Name" id="mother_name" 
-                        pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
-            </div>
-        </div>
-            
-              <h3 class="label-heading"> Contact No :</h3>
-        <div class="row">
-            <div class="col-md-2">
-                <label for="parent_mob_no">Parent Mob No.</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="parent_mob_no" id="parent_mob_no" placeholder="+91-0000000000" 
-                    title="Enter Mobile No." maxlength="16" autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required>
-            </div>
-        </div>
-              <div class="row">
-            <div class="col-md-2">
-                <label for="student_mob_no">Student Mob No.</label>
-            </div>
-            <div class="col-md-6">
-                <input type="tel" class="form-control" name="student_mob_no" id="student_mob_no" placeholder="+91-0000000000"
-                         title="Enter Mobile No." maxlength="16"  autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$"
-                       required>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-2">
-                <label for="landline_ph_no">Landline Ph. No.</label>
-            </div>
-            <div class="col-md-6">
-                <input type="tel" class="form-control" name="landline_ph_no" id="landline_ph_no" placeholder="02382-000000"
-                        title="Enter Landline No." maxlength="15" autocomplete="tel" required>
-            </div>
-        </div>
-            
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="mother_name" placeholder="Mother's Name" id="mother_name" 
+                                pattern="[a-zA-Z]*"  title="Only Enter Letters Without Space" maxlength="20" required>
+                </div>
+                
+<!--********************************************************************************************-->
+                
+                <h3 class="label-heading">Contact Info</h3>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="parent_mob_no" id="parent_mob_no" 
+                           placeholder=" Parent Mobile No. eg: +91-0000000000" title="Enter Mobile No." maxlength="16" 
+                           autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required>
+                </div>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="tel" class="" name="student_mob_no" id="student_mob_no" 
+                       placeholder="Student Mobile No. eg: +91-0000000000" title="Enter Mobile No." 
+                       maxlength="16"  autocomplete="tel" pattern="^(\+?\d{1,4}[\s-])?(?!0+\s+,?$)\d{10}\s*,?$" required>
+                </div>
+                        
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="tel" class="" name="landline_ph_no" id="landline_ph_no" 
+                           placeholder="Landline No. eg: 00000-000000" title="Enter Landline No." 
+                           maxlength="15" autocomplete="tel" required>
+                </div>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="email" autocomplete="email" placeholder="Email ID eg: name@example.com" 
+                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="" name="email" id="email" required>
+                </div>
+                
+<!--********************************************************************************************-->
+                
+                
+                <h3 class="label-heading">Permanent Address </h3>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="father_full_name"  id="father_full_name"
+                               placeholder="Father's Full Name: Firstname Middlename Surname"  required>
+                </div>
 
-            
-        <div class="row">
-            <div class="col-md-2">
-            <label for="email"> Email ID :</label>
-            </div>
-            <div class="col-md-6">
-                <input type="email" autocomplete="email" placeholder="name@example.com" 
-                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control" name="email" id="email" required>
-            </div>
-            
-        </div>
-            
-        <h3 class="label-heading">Permanent Address :</h3>
-            <div class="row">
-            <div class="col-md-2">
-                <label for="father_full_name">Father Full Name :</label>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" name="father_full_name"  id="father_full_name"
-                       placeholder="Firstname Middlename Surname"  required>
-            </div>
-            </div>
-            
-            <div class="row">    
-            <div class="col-md-2">
-                <label for="area">Street/Area:</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="area"  id="area" placeholder="123 Any Street"  
-                       autocomplete="street-address" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="town">Town/Village :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="town"  id="town" pattern="[a-zA-Z]*" required>
-            </div>
-            </div>
-            
-           <div class="row">
-            <div class="col-md-2">
-                <label for="tq">Tq :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="tq"  id="tq" pattern="[a-zA-Z]*" autocomplete="region" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="district">District :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="district"  id="district" pattern="[a-zA-Z]*" autocomplete="address-level2" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="pincode">Pincode :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="number" class="form-control" name="pincode"  id="pincode"  maxlength="6" autocomplete="postal-code" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="state">State :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="state"  id="state" pattern="[a-zA-Z]*" autocomplete="address-level1" required>
-            </div>
-            </div>
-            
-            <h3 class="label-heading">Correspondence Address: </h3>
-            <div class="row">    
-            <div class="col-md-2">
-                <label for="area2">Street/Area:</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="area2"  id="area2" placeholder="123 Any Street" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="town2">Town/Village :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="town2"  id="town2" pattern="[a-zA-Z]*" required>
-            </div>
-            </div>
-            
-           <div class="row">
-            <div class="col-md-2">
-                <label for="tq2">Tq :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="tq2"  id="tq2" pattern="[a-zA-Z]*" required>
-            </div>
-            </div>
-            
-            <div class="row">
-            <div class="col-md-2">
-                <label for="district2">District :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="district2"  id="district2" pattern="[a-zA-Z]*" required>
-            </div>
-            </div>
-            
-            <h3 class="label-heading">Personal Information</h3>
-        <div class="row">
-            <div class="col-md-2">
-                <label for="guardians_occupation">Guardian's Occupation :</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="guardians_occupation" id="guardians_occupation" maxlength="30"
-                       placeholder="eg: Farmer" required>
-            </div>
-        </div>
-            
-        <div class="row">
-           <div class="col-md-2">
-                <label for="annual_income">Annual Income:</label>
-            </div>
-            <div class="col-md-4">
-                <input type="text" class="form-control" name="annual_income" id="annual_income" maxlength="20" placeholder="20000" required>
-            </div>
-        </div>
-            <div class="row">
-                <div class="col-md-2">
-                <label>Gender :</label>
+                <div class=""> 
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="area"  id="area" placeholder="Street/Area: 123 Any Street"  
+                           autocomplete="street-address" required>
                 </div>
-                <div class="radio">
-                  <label><input type="radio" value="Male" name="gender" required>Male</label>
-                  <label><input type="radio" value="Female" name="gender">Female</label>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="town" placeholder="Town/Village" id="town" pattern="[a-zA-Z]*" required>
                 </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-2">
-                <label for="nationality">Nationality</label>
-             </div>
-             <div class="col-md-2">
-                 <select class="form-control input-sm" id="nationality" name="nationaliity" required>
-                     <option>Indian</option>
-                     <option>Other</option>
-                 </select>
+
+                <div class="">
+                   <p class="inputLabel"></p>
+                    <input type="text" class="" name="tq" placeholder="Taluqa" id="tq" pattern="[a-zA-Z]*" autocomplete="region" required>
                 </div>
-             </div>
-            
-            <div class="row">
-                        <div class="col-md-2"> 
-                            <label for="category">Category</label>
-                        </div>
-                        <div class="col-md-2">
-                            <select class="form-control input-sm" id="category" name="category" required>
-                                <option>OPEN</option>
-                                <option>SC</option>
-                                <option>ST</option>
-                                <option>VJDT</option>
-                                <option>NT1</option>
-                                <option>NT2</option>
-                                <option>NT3</option>
-                                <option>OBC</option>
-                                <option>SBC</option>
-                            </select>
-                        </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-2">
-                <label for="religion"> Religion :</label>
-             </div>
-             <div class="col-md-4">
-                <input type="text" class="form-control" name="religion" id="religion" required>
-             </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-2">
-                <label for="caste"> Caste :</label>
-             </div>
-             <div class="col-md-4">
-                <input type="text" class="form-control" name="caste" id="caste" required>
-             </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-2">
-                <label>Handicapped :</label>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="district" placeholder="District" id="district" pattern="[a-zA-Z]*"
+                           autocomplete="address-level2" required>
                 </div>
-                <div class="radio">
-                  <label><input type="radio" value="yes" name="handicapped" required>Yes</label>
-                  <label><input type="radio" value="no" name="handicapped">No</label>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="number" class="" name="pincode" placeholder="Pincode" id="pincode"  
+                           maxlength="6" autocomplete="postal-code" required>
                 </div>
-            </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="state" placeholder="State" id="state" 
+                           pattern="[a-zA-Z]*" autocomplete="address-level1" required>
+                </div>
+                
+<!--********************************************************************************************-->
+                
+                
+                <h3 class="label-heading">Correspondence Address </h3>
+                
+                <div class=""> 
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="area2"  id="area2" 
+                           placeholder="Street/Area: 123 Any Street" required>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="town2" placeholder="Town/Village" 
+                           id="town2" pattern="[a-zA-Z]*" required>
+                </div>
+
+               <div class="">
+                   <p class="inputLabel"></p>
+                    <input type="text" class="" name="tq2" placeholder="Taluqa" 
+                           id="tq2" pattern="[a-zA-Z]*" required>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="district2" placeholder="District" 
+                           id="district2" pattern="[a-zA-Z]*" required>
+                </div>
+                
+                
+<!--********************************************************************************************-->
+                
+                <h3 class="label-heading">Personal Information</h3>
+                
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="guardians_occupation" id="guardians_occupation" maxlength="30"
+                               placeholder="Guardian's Occupation eg: Farmer" required>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                        <input type="text" class="" name="annual_income" id="annual_income" maxlength="20" 
+                               placeholder="Annual Income eg: 20000" required>
+                </div>
+                
+                <div class="differentInputs">
+                    <p class="inputLabel">Gender :
+                        <input type="radio" value="Male" name="gender" required><label class="radioLabel">Male</label>
+                        <input type="radio" value="Female" name="gender"><label class="radioLabel">Female</label>
+                    </p>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Nationality :
+                        <select class="dropdownOptions" id="nationality" name="nationaliity" required>
+                            <option>Indian</option>
+                            <option>Other</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Category : 
+                        <select class="dropdownOptions" id="category" name="category" required>
+                            <option>OPEN</option>
+                            <option>SC</option>
+                            <option>ST</option>
+                            <option>VJDT</option>
+                            <option>NT1</option>
+                            <option>NT2</option>
+                            <option>NT3</option>
+                            <option>OBC</option>
+                            <option>SBC</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="religion" placeholder="Religion" id="religion" required>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="caste" placeholder="Caste" id="caste" required>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Handicapped :
+                        <input type="radio" value="yes" name="handicapped" required><label class="radioLabel">Yes</label>
+                        <input type="radio" value="no" name="handicapped"><label class="radioLabel">No</label>
+                    </p>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Defence Service :
+                        <input type="radio" value="yes" name="defence" required><label class="radioLabel">Yes</label>
+                        <input type="radio" value="no" name="defence"><label class="radioLabel">No</label>
+                    </p>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Date of Birth :
+                        <input type="date" class="" name="dd_date" id="datepicker"  required>
+                    </p>
+                </div>
+
+                <div class="">
+                    <p class="inputLabel"></p>
+                    <input type="text" class="" name="birth_place" placeholder="Place of Birth" id="birth_place" maxlength="15"  required>
+                </div>
+
+                <div class="differentInputs">
+                    <p class="inputLabel">Type of Candidate :
+                        <input type="radio" value="Latur" name="candidate_type" required><label class="radioLabel">Home District</label>
+                        <input type="radio" value="other" name="candidate_type"><label class="radioLabel">Other District</label>
+                    </p>
+                </div>
+                
+<!-- 
             
-               <div class="row">
-                <div class="col-md-2">
-                <label>Defence Service:</label>
-                </div>
-                <div class="radio">
-                  <label><input type="radio" value="yes" name="defence" required>Yes</label>
-                  <label><input type="radio" value="no" name="defence">No</label>
-                </div>
-            </div>
+              
+        
             
-            <div class="row">
-                    <div class="col-md-2">
-                        <label for="datepicker">Date of Birth</label>
-                  </div>
-                    <div class="col-md-4">
-                        <input type="date" class="form-control" name="dd_date" id="datepicker"  required>
-                  </div>   
-           </div>
+        
             
-            <div class="row">
-              <div class="col-md-2">
-                <label for="birth_place"> Place of Birth :</label>
-             </div>
-             <div class="col-md-4">
-                <input type="text" class="form-control" name="birth_place" id="birth_place" maxlength="15"  required>
-             </div>
-            </div>
             
-            <div class="row">
-                <div class="col-md-2">
-                <label>Type of Candidate:</label>
-                </div>
-                <div class="radio">
-                  <label><input type="radio" value="Latur" name="candidate_type" required>Home District</label>
-                  <label><input type="radio" value="other" name="candidate_type">Other District</label>
-                </div>
-            </div>
+            
+            
+            
+            
             
         <h3 class="label-heading"> Details of Examination passed :</h3>
             
@@ -559,6 +484,7 @@
                                   <button type="reset" class="button col-md-8 col-xs-12">Clear Form</button>
                             </div>
                  </div>
+-->
             </form>
             
     </div>
