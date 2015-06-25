@@ -268,7 +268,7 @@ ol {
 
 .button
 {
-    margin:24px;
+    margin:24px 16px;
     padding: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
