@@ -137,6 +137,10 @@ input[type=date]:focus,
     
 }
 
+#candidateType {
+    display: block;
+}
+
 /*  The HSC, SSC, and Dpharm board style code*/
 .marksEntry { 
     margin: 24px auto;
@@ -192,6 +196,10 @@ input[type=radio] {
     font-weight: 700;
 }
 
+
+
+
+    
 .accept{
 /*    width: 100%;*/
     margin: 14px;
@@ -205,6 +213,12 @@ input[type=radio] {
 #accept_label{
     color: #673AB7;
     font-size: 18px;
+/*    margin-right: 8px;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#accept_label input {
     margin-right: 8px;
 }
 
@@ -240,6 +254,10 @@ ol {
     padding: 16px;
 }
 
+#submitDiv {
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+}
+
 #formSubmit {
     float: right;
 }
@@ -251,7 +269,7 @@ ol {
     padding: 8px 4px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 	background:#673AB7;
 	border: 0px;
@@ -302,7 +320,9 @@ ol {
 
 @media (min-width:768px) 
 {
-    
+    #candidateType {
+        display: inline;
+    }
 }
 
 

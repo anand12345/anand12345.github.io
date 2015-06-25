@@ -246,7 +246,7 @@
                 </div>
 
                 <div class="differentInputs">
-                    <p class="inputLabel">Type of Candidate :
+                    <p class="inputLabel"><span id="candidateType">Type of Candidate :</span>
                         <input type="radio" value="Latur" name="candidate_type" required><label class="radioLabel">Home District</label>
                         <input type="radio" value="other" name="candidate_type"><label class="radioLabel">Other District</label>
                     </p>
@@ -400,9 +400,9 @@
                         </ol>
                         </p>
                         <div>
-                            <label for="accept_undertaking" id="accept_label">I accept above terms and conditions.</label>
-                            <input type="checkbox" value="accept" name="accept_undertaking" 
+                            <p id="accept_label"><input type="checkbox" value="accept" name="accept_undertaking" 
                                    id="accept_undertaking" required>
+                            I accept above terms and conditions.</p>
                         </div>
                     </div>
                 
@@ -444,7 +444,7 @@
                 </div>
             
                             
-                <div class=" attachMore">
+                <div class="container attachMore">
                     <div class="col-xs-6 col-sm-4 ">
                         <button class="button1 " type="button" onclick="add_file()" >
                             Add More Files &nbsp; <span class="glyphicon glyphicon-plus"></span>          
@@ -461,7 +461,7 @@
              
     
             
-                 <div class="" >
+                 <div id="submitDiv" >
                      
                      <div id="formSubmit">
                          <button type="reset" class="button">Clear Form</button>
