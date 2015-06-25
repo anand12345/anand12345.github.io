@@ -50,13 +50,10 @@ body{
     color: rgba(0, 0, 0, 0.54);
 /*    font-size: 14px;*/
     font-weight: 700;
-/*    padding-left: 20%;*/
+/*    border: 1px solid black;*/
 }
 
-input[type=text],
-input[type=tel],
-input[type=email],
-input[type=number]
+.textField
 {
     display: block;
     font-size: 16px;
@@ -101,11 +98,29 @@ input[type=date]
     transition-duration: 0.8s;
 }
 
-input[type=text]:focus,
-input[type=tel]:focus,
-input[type=email]:focus,
-input[type=number]:focus,
+.sideBySideBlocks{
+    padding: 0px 8px 0 0;
+}
+
+.sideBySideInputs {
+/*    display: block;*/
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+/*    margin: 16px auto;*/
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+/*    padding-left: 0;*/
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.26);   /*    Black color opacity low */
+    transition-duration: 0.8s;
+}
+
+.textField:focus,
 input[type=date]:focus,
+.sideBySideInputs:focus,
 .dropdownOptions:focus
 {
     outline: none;
@@ -114,8 +129,17 @@ input[type=date]:focus,
 }
 
 .differentInputs {
-    padding: 16px 0;
+    padding: 24px 0;
+    
 }
+
+/*  The HSC, SSC, and Dpharm board style code*/
+.marksEntry { 
+    margin: 24px auto;
+/*    border: 1px solid black;*/
+
+}
+
 
 ::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.26);
@@ -159,105 +183,118 @@ input[type=radio] {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #undertaking {
+    color: rgba(0, 0, 0, 0.87);
     font-weight: 700;
+}
+
+.accept{
+/*    width: 100%;*/
+    margin: 14px;
+    line-height: 32px;
+    padding: 14px; 
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+/*    border:1px solid rgba(0, 0, 0, 0.54);*/
+}
+
+#accept_label{
+    color: #673AB7;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+ol {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding-right: 32px;
+}
+
+.requiredDocsList {
+    padding: 16px;
+    line-height: 32px;
 }
 
 .certificates {
     list-style: none;
 }
 
-.button
-{
-
-    margin:10px 0px;
-    padding: 10px 8px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	color: #fff;
-	background:#2196F3;
-	border: 0px;
-	border-radius: 15px;
-	cursor: pointer;
-
-}
-
-
-.button:hover 
-{
-	box-shadow: 0 2px 3px rgba(0,0,0,0.26);
-	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
-	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
-}
-
-.button1
-{
-
-    margin:20px 0px;
-    padding: 8px 4px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	color: #fff;
-	background:#2196F3;
-	border: 0px;
-	border-radius: 10px;
-	cursor: pointer;
-
-}
-
-
-.button1:hover 
-{
-	box-shadow: 0 2px 3px rgba(0,0,0,0.26);
-	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
-	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+#input_file_list {
+    padding: 0 16px;
 }
 
 
 .file_inputs_multiple
 {
-    padding: 5px;
+    padding: 16px;
+/*    width: 100%;*/
+/*    border: 1px solid black;*/
+
+}
+
+.attachMore {
+    padding: 16px;
+}
+
+#formSubmit {
+    float: right;
+}
+
+.button1
+{
     width: 100%;
+    margin:20px 0px;
+    padding: 8px 4px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	background:#673AB7;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 
-    .accept{
-/*      width: 100%;*/
-        margin: 14px;
-        padding: 14px;
-        border:1px solid rgba(0, 0, 0, 0.54);
-    }
-
-#accept_label{
-    color: #9b791c;
-    font-size: 18px;
+.button1:hover,
+.button1:focus
+{
+    border: 0;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.26);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.26);
 }
 
-/*
-#accept_undertaking{
-    height: 48px;
+.button
+{
+    margin:24px;
+    padding: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #673AB7;
+    letter-spacing: 1px;
+	background-color: transparent;
+    text-transform: uppercase;
+	border: 0px;
+/*	border-radius: 15px;*/
+	cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.5s;
+/*    border: 1px solid black;*/
+
 }
-*/
+
+.button:hover,
+.button:focus
+{
+    border: 0;
+    border-bottom: 2px solid #673AB7;
+}
+
+
+
 
 @media (min-width:768px) 
 {
@@ -270,31 +307,4 @@ input[type=radio] {
     .reg_form{
         margin: 24px auto;
     }
-
-    .inputLabel {
-        position: relative;
-    }
-    input[type=text] {
-/* 
-        display: inline;
-        position: absolute;
-        right: 0;
-*/
-    }
-    
-    .button1{
-        margin:auto;
-    }
-        .accept{
-/*        margin: 54px auto;*/
-        border:1px solid rgba(0, 0, 0, 0.15);
-/*        height: 350px;*/
-    }
-    #accept_label{
-    color: #9b791c;
-    font-size: 20px;
-}
-    
-
-
 }
