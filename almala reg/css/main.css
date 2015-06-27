@@ -329,6 +329,47 @@ ol {
     background-color: rgba(103, 58, 183, 0.26);
 }
 
+#clearFormButton
+{
+    margin:24px 16px;
+    padding: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.54);
+    letter-spacing: 1px;
+	background-color: transparent;
+    text-transform: uppercase;
+	border: 0px;
+/*	border-radius: 15px;*/
+	cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.5s;
+/*    border: 1px solid black;*/
+
+}
+
+#clearFormButton:hover
+
+{
+    border: 0;
+    outline: none;
+/*    border-bottom: 2px solid #673AB7;*/
+}
+
+#clearFormButton:focus{
+    border: 0;
+    outline: none;
+    color: #673AB7;
+    border-bottom: 2px solid #673AB7;
+}
+
+#clearFormButton:active {
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
 
 @media (min-width:768px) 
 {
